@@ -2,7 +2,7 @@
 var express = require("express");
 var bodyParser = require("body-parser");
 
-var port = process.env.PORT || 3000;
+var PORT = process.env.PORT || 3000;
 
 var app = express();
 
@@ -28,5 +28,5 @@ app.use(routes);
 // Start our server so that it can begin listening to the client
 
 app.listen(PORT, function () {
-    console.log(("Server listening on: http://localhost:" + PORT);
+    console.log(("Server listening on: http://localhost:" + PORT));
 });
