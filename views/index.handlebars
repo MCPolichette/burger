@@ -3,17 +3,23 @@
 <h3>BURGER H3</h3>
 
 <ul>
-    {{#each wishes}}
+    {{#each burgers}}
     <li>
         <p>ID: {{this.id}}</p>
-        <p>Wish: {{this.wish}}</p>
+        <p>Wish: {{this.burgername}}</p>
     </li>
     {{/each}}
 </ul>
-
+<ul> {{#each burgers}}
+    <li>
+        <p>ID: {{this.id}}</p>
+        <p>Wish: {{this.burgername}}</p>
+    </li>
+    {{/each}}
+</ul>
 <div>
     <form action="/" method="POST">
-        <textarea type="text" name="wish"></textarea>
+        <textarea type="text" name="burger_type"></textarea>
 
         <button type="submit">Submit</button>
     </form>
