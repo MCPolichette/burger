@@ -1,0 +1,11 @@
+body{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.container{
+    background-image: url(../img/pablo-merchan-montes-723425-unsplash.jpg);
+    background-size:100%;
+/* Height set for fun..  please change before submiting */
+    min-height:1000px
+}
