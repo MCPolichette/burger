@@ -10,6 +10,7 @@ CREATE TABLE burgers
 burger_name VARCHAR
     (40) NOT NULL,
 devoured BIT NOT NULL,
+createdAt TIMESTAMP default current_timestamp NOT NULL,
 PRIMARY KEY
     (id)
 
