@@ -1,4 +1,4 @@
-
+// SERVER is the first part of the app that heroku picks up.
 var express = require("express");
 var bodyParser = require("body-parser");
 

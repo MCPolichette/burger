@@ -14,8 +14,8 @@ router.get("/", function (req, res) {
 
         console.log(burger_object);
         res.render("index", burger_object)
-    })
-})
+    });
+});
 
 router.post("/api/burgers", function (req, res) {
     burger.insertOne(

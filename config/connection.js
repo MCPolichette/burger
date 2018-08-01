@@ -21,7 +21,7 @@ if (process.env.JAWSDB_URL) {
         }
         console.log("connected as id " + connection.threadId);
     });
+};
+// Export connection for our ORM to use.
+module.exports = connection;
 
-    // Export connection for our ORM to use.
-    module.exports = connection;
-}
