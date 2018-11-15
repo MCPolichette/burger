@@ -2,12 +2,12 @@ USE burgers_db;
 INSERT INTO burgers
     (burger_name, devoured)
 VALUES
-    ("BigMac", 0);
+    ("BigMac", false);
 INSERT INTO burgers
     (burger_name, devoured)
 VALUES
-    ("Pizza Burger", 0);
+    ("Pizza Burger", false);
 INSERT INTO burgers
     (burger_name, devoured)
 VALUES
-    ("Buffalo burger", 0);
+    ("Buffalo burger", false);
